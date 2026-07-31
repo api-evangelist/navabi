@@ -1,8 +1,29 @@
 aid: navabi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navabi.png
 name: navabi
-description: 'navabi is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: retail. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'navabi is an online retailer specializing in plus-size designer fashion
+  for women, founded and headquartered in Aachen, Germany. As of July 2026 only the
+  Canadian storefront (navabi.ca) is live: navabi.com now redirects to an unrelated
+  parked domain (gitinama.site) and navabi.de returns a maintenance page, indicating
+  the brand has largely wound down its international operations. The shop curates dresses,
+  tops, jackets, jeans, coats, swimwear and accessories from luxury and contemporary
+  labels such as Anna Scholz, Basler, Bogner, Lacoste, Roberto Cavalli and Zizzi,
+  alongside styling advice, a fashion magazine and an affiliate program. navabi was
+  surfaced as a portfolio company of Index Ventures and added to the API Evangelist
+  network for enrichment. It is a consumer e-commerce brand with no public developer
+  portal, API, well-known discovery surface, or published security program; enrichment
+  probes captured only its web/domain security posture (navabi.ca).'
 url: https://raw.githubusercontent.com/api-evangelist/navabi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Retail
+- Fashion
+- E-commerce
+- Apparel
+- Plus Size Fashion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.navabi.ca/
+- type: Blog
+  url: https://www.navabi.ca/magazine.html
+- type: DomainSecurity
+  url: security/navabi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
