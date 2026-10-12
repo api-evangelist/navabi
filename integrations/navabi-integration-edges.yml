@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/navabi/integrations
+- https://n8n.io/integrations/navabi/
+- https://composio.dev/toolkits/navabi
+- https://monid.ai/tools/navabi
+checked:
+- https://composio.dev/toolkits/navabi
+- https://monid.ai/tools/navabi
+- https://n8n.io/integrations/navabi/
+- https://zapier.com/apps/navabi/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
